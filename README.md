@@ -7,7 +7,7 @@ alerts.
 
 ## Installation
 
-Download [angular-flash-pure.min.js] or install it with bower.
+Download [angular-flash-pure.min.js](https://raw.githubusercontent.com/spectra-music/angular-flash-pure/master/dist/angular-flash-pure.min.js) or install it with bower.
 
 ```bash
 $ bower install angular-flash-pure --save
@@ -37,6 +37,10 @@ Then in one of your views
 And then it all works!
 
 
+## Demo
+Coming soon
+
+
 ## Contributing
 
 For this project, we use Bower, Grunt, and Coffeescript.
@@ -46,6 +50,3 @@ For this project, we use Bower, Grunt, and Coffeescript.
 ```bash
 $ grunt build
 ```
-
-### Demo
-Coming soon
