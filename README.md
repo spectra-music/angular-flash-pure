@@ -25,8 +25,9 @@ var myApp = angular.module('myApp', ['angular-flash-pure']);
 Use the flash factory to set flash messages
 
 ```javascript
-myApp.controller('myController', ['flash', function(flash){
-  flash.notice.setMessage("I'm a flash notification!") // error, success, and warning also work
+myApp.controller('myController', ['flash', '$location', function(flash, $location){
+  flash.notice.setMessage("I'm a flash notification!"); // error, success, and warning also work
+  $location.path('/some/path');
 }]);
 ```
 
