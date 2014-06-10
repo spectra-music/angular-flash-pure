@@ -53,19 +53,19 @@ angular.module('angular-flash-pure', []).factory("flash", ($rootScope) ->
 .directive('flashMessages', [ 'flash', (flash) ->
   {
     restrict: 'E',
-    template: '<div>
-      <div class="pure-alert" ng-show="flash.notice.getMessage()">
-        {{ flash.notice.getMessage() }}
-      </div>
-      <div class="pure-alert pure-alert-success" ng-show="flash.success.getMessage()">
-        {{ flash.success.getMessage() }}
-      </div><div class="pure-alert pure-alert-warning" ng-show="flash.warning.getMessage()">
-        {{ flash.warning.getMessage() }}
-      </div>
-      <div class="pure-alert pure-alert-error" ng-show="flash.error.getMessage()">
-        {{ flash.error.getMessage() }}
-      </div>
-    </div>'
+    template: ['<div>',
+      '<div class="pure-alert" ng-show="flash.notice.getMessage()">',
+      '{{ flash.notice.getMessage() }}',
+      '</div>',
+      '<div class="pure-alert pure-alert-success" ng-show="flash.success.getMessage()">',
+        '{{ flash.success.getMessage() }}',
+      '</div><div class="pure-alert pure-alert-warning" ng-show="flash.warning.getMessage()">',
+        '{{ flash.warning.getMessage() }}',
+      '</div>',
+      '<div class="pure-alert pure-alert-error" ng-show="flash.error.getMessage()">',
+        '{{ flash.error.getMessage() }}',
+      '</div>',
+    '</div>'].join('\n')
     link: (scope, elem, attrs) ->
       scope.flash = flash
   }
