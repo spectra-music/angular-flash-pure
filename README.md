@@ -1,0 +1,51 @@
+# angular-flash-pure
+
+A simple flash notification module made up of a factory and a directive that will
+display flash messages using [AngularJS](https://angularjs.org). The directive
+uses [pure-extras](https://github.com/tilomitra/cssextras) for styling of the
+alerts.
+
+## Installation
+
+Download [angular-flash-pure.min.js] or install it with bower.
+
+```bash
+$ bower install angular-flash-pure --save
+```
+
+## Usage
+Load the module into your app
+
+```javascript
+var myApp = angular.module('myApp', ['angular-flash-pure']);
+```
+
+Use the flash factory to set flash messages
+
+```javascript
+myApp.controller('myController', ['flash', function(flash){
+  flash.notice.setMessage("I'm a flash notification!") // error, success, and warning also work
+}]);
+```
+
+Then in one of your views
+
+```html
+<flash-messages></flash-messages>
+```
+
+And then it all works!
+
+
+## Contributing
+
+For this project, we use Bower, Grunt, and Coffeescript.
+
+### Build
+
+```bash
+$ grunt build
+```
+
+### Demo
+Coming soon
