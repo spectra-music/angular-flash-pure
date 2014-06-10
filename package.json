@@ -1,0 +1,27 @@
+{
+  "name": "angular-flash-pure",
+  "version": "0.0.0",
+  "description": "Angular flash notifications styled using purecss/pure extras",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spectra-music/angular-flash-pure.git"
+  },
+  "keywords": [
+    "angular",
+    "purecss",
+    "flash"
+  ],
+  "author": "Kristen Mills",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spectra-music/angular-flash-pure/issues"
+  },
+  "homepage": "https://github.com/spectra-music/angular-flash-pure",
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  }
+}

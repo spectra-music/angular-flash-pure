@@ -4,7 +4,7 @@
   "authors": [
     "kristenmills <kristen@kristen-mills.com>"
   ],
-  "description": "Angular flash notifications using pure css/pure extras",
+  "description": "Angular flash notifications styled with purecss/pure extras",
   "main": "dist/angular-flash-pure.js",
   "keywords": [
     "angular",
