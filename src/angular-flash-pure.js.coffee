@@ -19,6 +19,13 @@ angular.module('angular-flash-pure', []).factory("flash", ($rootScope) ->
     currentMessages.error = queues.error.shift() || ""
   )
 
+  $rootScope.$on("event:angularFlash", () ->
+    currentMessages.notice = queues.notice.shift() || ""
+    currentMessages.success = queues.success.shift() || ""
+    currentMessages.warning = queues.warning.shift() || ""
+    currentMessages.error = queues.error.shift() || ""
+  )
+
   {
     notice: {
       setMessage: (message) ->

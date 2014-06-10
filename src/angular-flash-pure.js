@@ -19,6 +19,12 @@
       currentMessages.warning = queues.warning.shift() || "";
       return currentMessages.error = queues.error.shift() || "";
     });
+    $rootScope.$on("event:angularFlash", function() {
+      currentMessages.notice = queues.notice.shift() || "";
+      currentMessages.success = queues.success.shift() || "";
+      currentMessages.warning = queues.warning.shift() || "";
+      return currentMessages.error = queues.error.shift() || "";
+    });
     return {
       notice: {
         setMessage: function(message) {

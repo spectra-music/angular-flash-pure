@@ -39,6 +39,14 @@ Then in one of your views
 
 And then it all works!
 
+### Manually triggering flash notifications
+So the display of flash notifications are triggered by `$locationChangeStart`. But I'm aware that isn't always what you want. So if you would like the
+notification to appear without changing location, do the following when you want
+them to be displayed:
+
+```javascript
+$rootScope.$emit("event:angularFlash");
+```
 
 ## Demo
 Coming soon
