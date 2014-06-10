@@ -1,0 +1,28 @@
+{
+  "name": "angular-flash-pure",
+  "version": "0.0.0",
+  "authors": [
+    "kristenmills <kristen@kristen-mills.com>"
+  ],
+  "description": "Angular flash notifications using pure css/pure extras",
+  "main": "dist/angular-flash-pure.js",
+  "keywords": [
+    "angular",
+    "flash",
+    "purecss"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/spectra/angular-flash-pure",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "Gruntfile.js"
+  ],
+  "dependencies": {
+    "angular": "~1.2.17",
+    "pure-extras": "*"
+  }
+}
