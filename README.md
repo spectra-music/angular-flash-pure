@@ -7,7 +7,9 @@ alerts.
 
 ## Installation
 
-Download [angular-flash-pure.min.js](https://raw.githubusercontent.com/spectra-music/angular-flash-pure/master/dist/angular-flash-pure.min.js) or install it with bower.
+Download [angular-flash-pure.min.js](https://raw.githubusercontent.com/spectra-music/angular-flash-pure/master/dist/angular-flash-pure.min.js)
+and [pure-extras.css](https://raw.githubusercontent.com/tilomitra/cssextras/master/css/pure-extras.css)
+or install it with bower.
 
 ```bash
 $ bower install angular-flash-pure --save
