@@ -12,7 +12,7 @@
     "purecss"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/spectra/angular-flash-pure",
+  "homepage": "https://github.com/spectra-music/angular-flash-pure",
   "ignore": [
     "**/.*",
     "node_modules",
