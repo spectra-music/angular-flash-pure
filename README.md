@@ -49,8 +49,7 @@ $rootScope.$emit("event:angularFlash");
 ```
 
 ## Demo
-Coming soon
-
+Check out the [Plunker](http://embed.plnkr.co/KYD0NGACxGzrXV1TqZ08/preview). This demo uses the manual triggering of flash events.
 
 ## Contributing
 
